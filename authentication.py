@@ -6,7 +6,7 @@ API_KEY = 'PLEASE ENTER KEY HERE'
 API_SECRET = 'PLEASE ENTER SECRET HERE'
 API_PASS = 'PLEASE ENTER PASS HERE'
 
-# Create custom authentication for Exchange
+# Create custom authentication
 class CoinbaseExchangeAuth(AuthBase):
     def __init__(self, api_key, secret_key, passphrase):
         self.api_key = api_key
