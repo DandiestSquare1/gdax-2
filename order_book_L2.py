@@ -5,7 +5,7 @@ from requests.auth import AuthBase
 #request
 r = authentication.requests.get(authentication.api_url + '/products/'+input('Enter your symbol: ')+'/book?level=2', auth=authentication.auth)
 
-#format json data to include "
+#format json data
 data = (json.dumps(r.json()))
 
 #read json into pandas
