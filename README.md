@@ -7,5 +7,6 @@ The Market Data API is set of endpoints for retrieving market data. These endpoi
 
 - authentication.py - used to create a request.
 - order_book_L2.py - used to get a list of open orders for a product.
+- last_tick.py - used to receive information about the last trade, best bid/ask and 24h volume.
 
 ##### For more information please visit https://docs.gdax.com/
