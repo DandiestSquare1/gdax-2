@@ -2,9 +2,9 @@ import json, hmac, hashlib, time, requests, base64
 import pandas as pd
 from requests.auth import AuthBase
 
-API_KEY = 'ENTER HERE'
-API_SECRET = 'ENTER HERE'
-API_PASS = 'ENTER HERE'
+API_KEY = 'PLEASE ENTER KEY HERE'
+API_SECRET = 'PLEASE ENTER SECRET HERE'
+API_PASS = 'PLEASE ENTER PASS HERE'
 
 # Create custom authentication for Exchange
 class CoinbaseExchangeAuth(AuthBase):
